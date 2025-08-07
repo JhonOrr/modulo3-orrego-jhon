@@ -1,7 +1,10 @@
 package com.example.gestion_hotel;
 
+import com.example.gestion_hotel.entity.Guest;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ReservaControllerSimulado controller = new ReservaControllerSimulado();
+
     }
 }
